@@ -1,28 +1,22 @@
 # Module 10 Team Generator task.
 
 # Site Link
-https://hoeferm2.github.io/password-debug-challenge/
+https://hoeferm2.github.io/office-team-generator/
 
 # git-hub Repository Link
-https://github.com/hoeferm2/password-debug-challenge
+https://github.com/hoeferm2/office-team-generator
 ## This weeks task
 
-The task for this weeks challenge was to make a password generator that run the user through a series of prompts to custom design a random password.
+The task for this weeks challenge was to make a office team badge generator that run the user through a series of prompts to create individual employee badges.
 
-![Generated](./assets/screenshots/generated.PNG)
-## Generate Password button
 
-Users start the process by clicking on the generate password button which runs through a series of prompt and confirm pop ups. Initially the user must choose a number between 8 -128. Numbers outside of this parameter are rejected the the user is sent back to the generate password button
+## command-line application
 
-## Confirm Prompts
-![confirm](./assets/screenshots/confirm.PNG)
+Users start the process by clicking on the command-line application which runs through a series of input questions. Initially all users start at the list menu which contains 4 options (Manager Sign in, Add Enginner, Add Intern, Close Application). The user may choose to create any number of employees. Each time an employee is logged the user returns to the start screen until the close the application Employees are sorted by role and each employee badge contains name, id, and email. For Managers they have a unique trait called office number, engineers gitHub account, and interns school.
 
-Once users have selected an accepted password length they are given several confirm prompts to choose how to format thier password. There are 4 different global string variables that each confirm prompt corresponds to. By denying specific confirm alerts is overwriting the specific variable string with an empty string.
+## Generate HTML
+Once the user had made thier employees they must choose the close applicaiton option. When they do an html is generated with the requisite badges displayed.
 
-## Password Randomizer
+## Contributions
 
-At the end of the string of confirm prompts a new variable is created
-
-var finalChoice 
-
-This variable will then go through a password randomizer and create a randomly generated password based on the users specifications.
+Thank you to Joe for getting us started with the starter code. Thanks to Gabe Sowa for helping me trouble shoot testing, and thanks to Andres Long for helping with my write file function. 
